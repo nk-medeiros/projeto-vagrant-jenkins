@@ -1,0 +1,16 @@
+# Estado local do Vagrant (específico da máquina, não deve ir para o repositório)
+.vagrant/
+
+# Logs
+*.log
+
+# Chaves SSH geradas localmente (privadas — nunca devem ser commitadas)
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
